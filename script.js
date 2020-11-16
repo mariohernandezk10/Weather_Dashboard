@@ -9,7 +9,7 @@ const apiKey = "2a75df114c3808db73405dca2f046501"
 
 function getWeatherInfo (city){
 
-    let queryURL = `api.openweathermap.org/data/2.5/weather?q=${city}&appid=2a75df114c3808db73405dca2f046501`
+    let queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2a75df114c3808db73405dca2f046501`
     $.ajax({
         url: queryURL,
         method: "GET"
