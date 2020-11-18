@@ -1,10 +1,10 @@
-function getStorage() {
-	// Get the data stored at Local Storage
-	cityArray = JSON.parse(localStorage.getItem("cityArray"));
-	console.log(cityArray);
-};
+// function getStorage() {
+// 	// Get the data stored at Local Storage
+// 	cityArray = JSON.parse(localStorage.getItem("cityArray"));
+// 	console.log(cityArray);
+// };
 
-getStorage();
+// getStorage();
 
 
 
